@@ -1,0 +1,302 @@
+[Format]      =  4.0
+[Frequency]   =  0
+[Precision]   =  1e-008
+[MinAngle]    =  30
+[DoSmartMesh] =  1
+[Depth]       =  1
+[LengthUnits] =  millimeters
+[ProblemType] =  axisymmetric
+[Coordinates] =  cartesian
+[ACSolver]    =  0
+[PrevType]    =  0
+[PrevSoln]    =  ""
+[Comment]     =  "Add comments here."
+[PointProps]   = 0
+[BdryProps]   = 1
+  <BeginBdry>
+    <BdryName> = "A=0"
+    <BdryType> = 0
+    <A_0> = 0
+    <A_1> = 0
+    <A_2> = 0
+    <Phi> = 0
+    <c0> = 0
+    <c0i> = 0
+    <c1> = 0
+    <c1i> = 0
+    <Mu_ssd> = 0
+    <Sigma_ssd> = 0
+    <innerangle> = 0
+    <outerangle> = 0
+  <EndBdry>
+[BlockProps]  = 10
+  <BeginBlock>
+    <BlockName> = "Air"
+    <Mu_x> = 1
+    <Mu_y> = 1
+    <H_c> = 0
+    <H_cAngle> = 0
+    <J_re> = 0
+    <J_im> = 0
+    <Sigma> = 0
+    <d_lam> = 0
+    <Phi_h> = 0
+    <Phi_hx> = 0
+    <Phi_hy> = 0
+    <LamType> = 0
+    <LamFill> = 1
+    <NStrands> = 0
+    <WireD> = 0
+    <BHPoints> = 0
+  <EndBlock>
+  <BeginBlock>
+    <BlockName> = "Tube"
+    <Mu_x> = 1
+    <Mu_y> = 1
+    <H_c> = 0
+    <H_cAngle> = 0
+    <J_re> = 0
+    <J_im> = 0
+    <Sigma> = 0
+    <d_lam> = 0
+    <Phi_h> = 0
+    <Phi_hx> = 0
+    <Phi_hy> = 0
+    <LamType> = 0
+    <LamFill> = 1
+    <NStrands> = 0
+    <WireD> = 0
+    <BHPoints> = 0
+  <EndBlock>
+  <BeginBlock>
+    <BlockName> = "CuWire"
+    <Mu_x> = 1
+    <Mu_y> = 1
+    <H_c> = 0
+    <H_cAngle> = 0
+    <J_re> = 0
+    <J_im> = 0
+    <Sigma> = 58
+    <d_lam> = 0
+    <Phi_h> = 0
+    <Phi_hx> = 0
+    <Phi_hy> = 0
+    <LamType> = 3
+    <LamFill> = 1
+    <NStrands> = 1
+    <WireD> = 0.10000000000000001
+    <BHPoints> = 0
+  <EndBlock>
+  <BeginBlock>
+    <BlockName> = "u1"
+    <Mu_x> = 2.4089242666740582
+    <Mu_y> = 2.4089242666740582
+    <H_c> = 0
+    <H_cAngle> = 0
+    <J_re> = 0
+    <J_im> = 0
+    <Sigma> = 0
+    <d_lam> = 0
+    <Phi_h> = 0
+    <Phi_hx> = 0
+    <Phi_hy> = 0
+    <LamType> = 0
+    <LamFill> = 1
+    <NStrands> = 0
+    <WireD> = 0
+    <BHPoints> = 0
+  <EndBlock>
+  <BeginBlock>
+    <BlockName> = "u2"
+    <Mu_x> = 0.14929929105743517
+    <Mu_y> = 0.14929929105743517
+    <H_c> = 0
+    <H_cAngle> = 0
+    <J_re> = 0
+    <J_im> = 0
+    <Sigma> = 0
+    <d_lam> = 0
+    <Phi_h> = 0
+    <Phi_hx> = 0
+    <Phi_hy> = 0
+    <LamType> = 0
+    <LamFill> = 1
+    <NStrands> = 0
+    <WireD> = 0
+    <BHPoints> = 0
+  <EndBlock>
+  <BeginBlock>
+    <BlockName> = "u3"
+    <Mu_x> = 13.817592213008757
+    <Mu_y> = 13.817592213008757
+    <H_c> = 0
+    <H_cAngle> = 0
+    <J_re> = 0
+    <J_im> = 0
+    <Sigma> = 0
+    <d_lam> = 0
+    <Phi_h> = 0
+    <Phi_hx> = 0
+    <Phi_hy> = 0
+    <LamType> = 0
+    <LamFill> = 1
+    <NStrands> = 0
+    <WireD> = 0
+    <BHPoints> = 0
+  <EndBlock>
+  <BeginBlock>
+    <BlockName> = "u4"
+    <Mu_x> = 0.058217224585269539
+    <Mu_y> = 0.058217224585269539
+    <H_c> = 0
+    <H_cAngle> = 0
+    <J_re> = 0
+    <J_im> = 0
+    <Sigma> = 0
+    <d_lam> = 0
+    <Phi_h> = 0
+    <Phi_hx> = 0
+    <Phi_hy> = 0
+    <LamType> = 0
+    <LamFill> = 1
+    <NStrands> = 0
+    <WireD> = 0
+    <BHPoints> = 0
+  <EndBlock>
+  <BeginBlock>
+    <BlockName> = "u5"
+    <Mu_x> = 45.655954531895645
+    <Mu_y> = 45.655954531895645
+    <H_c> = 0
+    <H_cAngle> = 0
+    <J_re> = 0
+    <J_im> = 0
+    <Sigma> = 0
+    <d_lam> = 0
+    <Phi_h> = 0
+    <Phi_hx> = 0
+    <Phi_hy> = 0
+    <LamType> = 0
+    <LamFill> = 1
+    <NStrands> = 0
+    <WireD> = 0
+    <BHPoints> = 0
+  <EndBlock>
+  <BeginBlock>
+    <BlockName> = "u6"
+    <Mu_x> = 0.033867295231772787
+    <Mu_y> = 0.033867295231772787
+    <H_c> = 0
+    <H_cAngle> = 0
+    <J_re> = 0
+    <J_im> = 0
+    <Sigma> = 0
+    <d_lam> = 0
+    <Phi_h> = 0
+    <Phi_hx> = 0
+    <Phi_hy> = 0
+    <LamType> = 0
+    <LamFill> = 1
+    <NStrands> = 0
+    <WireD> = 0
+    <BHPoints> = 0
+  <EndBlock>
+  <BeginBlock>
+    <BlockName> = "u7"
+    <Mu_x> = 429.04642800993452
+    <Mu_y> = 429.04642800993452
+    <H_c> = 0
+    <H_cAngle> = 0
+    <J_re> = 0
+    <J_im> = 0
+    <Sigma> = 0
+    <d_lam> = 0
+    <Phi_h> = 0
+    <Phi_hx> = 0
+    <Phi_hy> = 0
+    <LamType> = 0
+    <LamFill> = 1
+    <NStrands> = 0
+    <WireD> = 0
+    <BHPoints> = 0
+  <EndBlock>
+[CircuitProps]  = 1
+  <BeginCircuit>
+    <CircuitName> = "Coil"
+    <TotalAmps_re> = 0.014999999999999999
+    <TotalAmps_im> = 0
+    <CircuitType> = 1
+  <EndCircuit>
+[NumPoints] = 25
+30	6.5	0	0
+30	-6.5	0	0
+30.100000000000001	-6.5	0	0
+30.100000000000001	6.5	0	0
+27.899999999999999	8.5	0	0
+30.100000000000001	8.5	0	0
+30.100000000000001	-8.5	0	0
+27.899999999999999	-8.5	0	0
+0	8.5	0	0
+0	-67.7464272120678	0	0
+0	67.7464272120678	0	0
+0	-61.587661101879817	0	0
+0	61.587661101879817	0	0
+0	-62.467484831906674	0	0
+0	62.467484831906674	0	0
+0	-63.347308561933524	0	0
+0	63.347308561933524	0	0
+0	-64.227132291960388	0	0
+0	64.227132291960388	0	0
+0	-65.106956021987244	0	0
+0	65.106956021987244	0	0
+0	-65.986779752014087	0	0
+0	65.986779752014087	0	0
+0	-66.866603482040944	0	0
+0	66.866603482040944	0	0
+[NumSegments] = 25
+0	1	-1	0	0	0
+1	2	-1	0	0	0
+2	3	-1	0	0	0
+0	3	-1	0	0	0
+4	5	-1	0	0	0
+5	3	-1	0	0	0
+2	6	-1	0	0	0
+6	7	-1	0	0	0
+7	4	-1	0	0	0
+9	23	-1	0	0	0
+8	12	-1	0	0	0
+11	8	-1	0	0	0
+12	14	-1	0	0	0
+13	11	-1	0	0	0
+14	16	-1	0	0	0
+15	13	-1	0	0	0
+16	18	-1	0	0	0
+17	15	-1	0	0	0
+18	20	-1	0	0	0
+19	17	-1	0	0	0
+20	22	-1	0	0	0
+21	19	-1	0	0	0
+22	24	-1	0	0	0
+23	21	-1	0	0	0
+24	10	-1	0	0	0
+[NumArcSegments] = 8
+11	12	180	1	0	0	0	1
+13	14	180	1	0	0	0	1
+15	16	180	1	0	0	0	1
+17	18	180	1	0	0	0	1
+19	20	180	1	0	0	0	1
+21	22	180	1	0	0	0	1
+23	24	180	1	0	0	0	1
+9	10	180	1	1	0	0	1
+[NumHoles] = 0
+[NumBlockLabels] = 10
+60.200000000000003	0	1	-1	0	0	0	1	0
+28.949999999999999	0	2	-1	0	0	0	1	0
+30.050000000000001	0.70000000000000007	3	-1	1	0	0	108	0
+60.835730545066227	12.100979183990095	4	-1	0	0	0	1	0
+58.118856251852598	24.073618489129693	5	-1	0	0	0	1	0
+53.03713543825058	35.438280916271651	6	-1	0	0	0	1	0
+45.726505442686097	45.72650544268609	7	-1	0	0	0	1	0
+36.41588866568604	54.500228829650588	8	-1	0	0	0	1	0
+25.420394348661429	61.370260797410793	9	-1	0	0	0	1	0
+13.130849752840305	66.013239527625061	10	-1	0	0	0	1	0
